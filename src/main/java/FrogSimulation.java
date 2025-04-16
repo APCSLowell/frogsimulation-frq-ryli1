@@ -21,7 +21,7 @@ public class FrogSimulation
 			pos += hopDistance();
 			maxHops--;
 		}
-		if(pos >= goal Distance) {
+		if(pos >= goalDistance) {
 			return true;
 		}
 		return false;
