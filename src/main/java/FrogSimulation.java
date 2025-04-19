@@ -34,7 +34,7 @@ public class FrogSimulation
 				successes++;
 			}
 		}
-		return (double)successes/num;
+		return successes/(double)num;
 	}
 	
 	
